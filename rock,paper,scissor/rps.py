@@ -16,8 +16,6 @@ while playing:
         computer =random.choice(options)
     print(f"you:{you}")
     print(f"computer:{computer}")
-
-
     if you == computer:
         print("It's a tie")
     elif you == 'rock' and computer == 'scissor':
